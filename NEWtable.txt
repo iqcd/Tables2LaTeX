@@ -1,0 +1,15 @@
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	Length($m$) & Time($s$) & Weight($kg$) & Date\\
+	\hline
+	1.00 & 1.0 & 1.15 & \\
+	\hline
+	2.34 & 1.1 & 1.45 & 12-12-12\\
+	\hline
+	3.00 & 1.4 & 1.89 & \\
+	\hline
+	4.69 & 7.0 & 5.00 & \\
+	\hline
+	10.00 & 1.0 & 0.01 & 1-1-1\\
+	\hline
+\end{tabular}
