@@ -5,7 +5,9 @@ Just run “Tables2LaTeX.py”, and answer each of the questions:
 * **Name of the file?**
 * **Vertical lines?**
 * **Horizontal lines?**
-* **Aling?**
+* **Text Aling?**
 	* *l* = left.
 	* *c* = center.
 	* *r* = right.
+
+> **ProTip**: write “%” for a *empty cell*, and “\~” for a *blank space*.

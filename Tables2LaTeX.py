@@ -72,9 +72,13 @@ for l in A:
         F2.write("\t")
     n = len(l)
     for i in range(n - 1):
-        F2.write(l[i] + " & ")
+        if l[i] != '%':
+            F2.write(l[i] + " & ")
+        else:
+            F2.write(" & ")
     if n != 0: 
-        F2.write(l[n - 1])
+        if l[n - 1] != '%':
+            F2.write(l[n - 1])
         while n < Nc:
             n += 1
             F2.write(" & ")

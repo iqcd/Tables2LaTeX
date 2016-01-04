@@ -1,6 +1,6 @@
 \begin{tabular}{|c|c|c|c|}
 	\hline
-	Length($m$) & Time($s$) & Weight($kg$) & Date\\
+	Length~($m$) & Time~($s$) & Weight~($kg$) & Date\\
 	\hline
 	1.00 & 1.0 & 1.15 & \\
 	\hline
@@ -10,6 +10,8 @@
 	\hline
 	4.69 & 7.0 & 5.00 & \\
 	\hline
-	10.00 & 1.0 & 0.01 & 1-1-1\\
+	10.00 & 1.0 & 0.01 & 1-10-13\\
+	\hline
+	0.00 & 0.00 &  & 4-6-15\\
 	\hline
 \end{tabular}
