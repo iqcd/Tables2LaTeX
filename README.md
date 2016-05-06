@@ -10,4 +10,4 @@ Just run “Tables2LaTeX.py”, and answer each of the questions:
 	* *c* = center.
 	* *r* = right.
 
-> **ProTip**: write “%” for a *empty cell*, and “\~” for a *blank space*.
+> **ProTip**: write “%” for an *empty cell*, and “\~” for a *blank space*.
