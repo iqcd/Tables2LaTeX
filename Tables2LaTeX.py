@@ -13,15 +13,15 @@ except:
 
 VL = raw_input("Vertical lines? [Y-N].\n>> ")
 if VL == "Y":
-    VL = 1;
-else:
     VL = 0;
+else:
+    VL = 1;
 
 HL = raw_input("Horizontal lines? [Y-N].\n>> ")
 if HL == "Y":
-    HL = 1;
-else:
     HL = 0;
+else:
+    HL = 1;
     
 align = raw_input("Text align? [l-c-r].\n>> ")    
 if align != "l":
@@ -54,7 +54,7 @@ Nc = 0
 for i in A:
     Nc = max(Nc,len(i))
 
-F2.write("\\begin{tabular}{")
+F2.write("\\begin{table}[ht!]\n\\begin{center}\n\\begin{tabular}{")
 for i in range(Nc):
     F2.write(align)
 if VL == 1:
@@ -88,7 +88,7 @@ for l in A:
     else:
         print "Warning! Blank line found. Line ignored."
         
-F2.write("\\end{tabular}")
+F2.write("\\end{tabular}\n\\end{center}\n\\end{table}")
 
 print "--------------------------------------"
 print "File " + new_file + " created successfully."
