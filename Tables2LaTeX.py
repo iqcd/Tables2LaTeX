@@ -12,13 +12,13 @@ except:
     exit()
 
 VL = raw_input("Vertical lines? [Y-N].\n>> ")
-if VL == "Y":
+if VL == "N":
     VL = 0;
 else:
     VL = 1;
 
 HL = raw_input("Horizontal lines? [Y-N].\n>> ")
-if HL == "Y":
+if HL == "N":
     HL = 0;
 else:
     HL = 1;
