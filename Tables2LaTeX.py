@@ -1,4 +1,4 @@
-file_name = raw_input("Name of the file (1 for 'table.txt', 0 for exit)?\n>> ")
+file_name = raw_input("Name of the file?\nShortcuts: 1 = 'table.txt', 0 = exit\n>> ")
 
 if file_name == '1':
     file_name = "table.txt"
@@ -90,9 +90,9 @@ for l in A:
         
 F2.write("\\end{tabular}\n\\end{center}\n\\end{table}")
 
-print "--------------------------------------"
+print "----------------------------------------"
 print "File " + new_file + " created successfully."
-print "--------------------------------------"
+print "----------------------------------------"
 
 F.close()
 F2.close()
